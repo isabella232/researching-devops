@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Adron/researching-devops.png?label=ready&title=Ready)](https://waffle.io/Adron/researching-devops)
 researching-devops
 ==================
 
