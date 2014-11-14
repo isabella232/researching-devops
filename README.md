@@ -1,5 +1,21 @@
-[![Stories in Ready](https://badge.waffle.io/Adron/researching-devops.png?label=ready&title=Ready)](https://waffle.io/Adron/researching-devops)
-researching-devops
-==================
+Terraform, Chef-metal and Sparkleformation
+===
 
-A project researching several devops options for use in projects.
+## Introduction
+I've recently started looking into a number of tools to help automate projects from the development and operations point of views. As one might say these days, I was looking to *up my devops game*.
+
+Over these last several months I've been building a lot of distributed systems. Primarily this work has focused solely around the AWS Ecosystem, with a few jaunts over to GCE or Azure spaces. While working through these projects I've run into a number of situations where automation is a primary indicator of a project being a success.
+
+The easiest way, in most of these modern IaaS or even PaaS environments, is to get started with one of the available powerful tools for automation. In this series I'm going to take a look at a few of these automation tools and provide a basic intro to getting started with each. The three I'll take a look at are: [Terraform](), [Chef-metal](), and [Sparkleformation]().
+
+## What is Terraform?
+
+Terraform is a tool for building infrastructure in a way that it can be versioned, changed, and managed in an automatable way. It's a pretty easy installation and quick to get started with. I covered Terraform with a [how-to get started with appropriate document links and notes](https://github.com/Adron/testing-devops-options/blob/master/Terraform.md).
+
+## What is Chef-metal?
+
+First off, as of October 29th, in time for Halloween Chef-metal became [Chef-provisioning](https://twitter.com/jkeiser2/status/527601333709602816). Chef-metal, or as they're calling it [Chef-provisioning](https://github.com/opscode/chef-provisioning), is a way to manage various chef configured instances (via recipes) with a single source of code. This code can then be setup in a single repository. My [how-to on getting started I've provided here](https://github.com/Adron/testing-devops-options/blob/master/Chef-metal.md).
+
+## What is Sparkleformation?
+
+Sparkleformation is an early open source project by some of the team at one of the leading devops automation companies called [Heavy Water Ops](http://hw-ops.com/). I've written a simple [review of how-to get started with Sparkleformation](https://github.com/Adron/testing-devops-options/blob/master/sparkleformation.md).
